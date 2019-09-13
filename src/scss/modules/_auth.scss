@@ -1,0 +1,22 @@
+.auth{
+  background: linear-gradient(to right, #606c88, #3f4c6b) center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  color: $light;
+  .main {
+    @extend .container-fluid;
+    .content {
+      @extend .col-lg-2;
+      @extend .col-md-4;
+      @extend .col-sm-5;
+      @extend .offset-lg-5;
+      @extend .offset-md-4;
+      @extend .offset-sm-2;
+      background: #00000066;
+      padding: 2rem;
+    }
+  }
+}
